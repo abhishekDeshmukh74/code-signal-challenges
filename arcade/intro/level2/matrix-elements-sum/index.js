@@ -8,7 +8,6 @@ function matrixElementsSum(matrix) {
                 }
                 matrix[i + 1][j] = 0
             } else {
-                console.log('i:', i, ' j:', j)
                 total += matrix[i][j]
             }
         }

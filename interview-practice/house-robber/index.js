@@ -1,6 +1,5 @@
 // Recursive - Failing large inputs
 function houseRobber(houses) {
-    console.log('houses:', houses)
     if (!houses || houses.length === 0) return 0
     if (houses.length === 1) return houses[0]
 
